@@ -11,6 +11,20 @@
 		5AC10E392C03AAB300E69D47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC10E382C03AAB300E69D47 /* ContentView.swift */; };
 		5AC10E3B2C03AAB400E69D47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AC10E3A2C03AAB400E69D47 /* Assets.xcassets */; };
 		5AC10E3E2C03AAB400E69D47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AC10E3D2C03AAB400E69D47 /* Preview Assets.xcassets */; };
+		5AC10E562C03AC8500E69D47 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC10E552C03AC8500E69D47 /* MainTabView.swift */; };
+		5AC10E582C04002F00E69D47 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC10E572C04002F00E69D47 /* FeedView.swift */; };
+		5AC10E5A2C04018B00E69D47 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC10E592C04018B00E69D47 /* FeedCell.swift */; };
+		5AC10E5C2C04052700E69D47 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC10E5B2C04052700E69D47 /* ExploreView.swift */; };
+		5AC10E5E2C04053400E69D47 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC10E5D2C04053400E69D47 /* UserCell.swift */; };
+		5AC10E602C0406F200E69D47 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC10E5F2C0406F200E69D47 /* NotificationsView.swift */; };
+		5AC10E622C0406FB00E69D47 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC10E612C0406FB00E69D47 /* NotificationCell.swift */; };
+		5AC10E642C04094700E69D47 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC10E632C04094700E69D47 /* CurrentUserProfileView.swift */; };
+		5AC10E662C040B6700E69D47 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC10E652C040B6700E69D47 /* ProfileHeaderView.swift */; };
+		5AC10E682C040B7800E69D47 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC10E672C040B7800E69D47 /* PostGridView.swift */; };
+		5AC10E6B2C040D1900E69D47 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC10E6A2C040D1900E69D47 /* UserStatView.swift */; };
+		5AC10E6D2C04101100E69D47 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC10E6C2C04101100E69D47 /* Post.swift */; };
+		5AC10E722C04106C00E69D47 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC10E712C04106C00E69D47 /* FeedViewModel.swift */; };
+		5AC10E742C0413E600E69D47 /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC10E732C0413E600E69D47 /* CustomVideoPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +33,20 @@
 		5AC10E382C03AAB300E69D47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5AC10E3A2C03AAB400E69D47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AC10E3D2C03AAB400E69D47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5AC10E552C03AC8500E69D47 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		5AC10E572C04002F00E69D47 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		5AC10E592C04018B00E69D47 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		5AC10E5B2C04052700E69D47 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		5AC10E5D2C04053400E69D47 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		5AC10E5F2C0406F200E69D47 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		5AC10E612C0406FB00E69D47 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		5AC10E632C04094700E69D47 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		5AC10E652C040B6700E69D47 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		5AC10E672C040B7800E69D47 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		5AC10E6A2C040D1900E69D47 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
+		5AC10E6C2C04101100E69D47 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		5AC10E712C04106C00E69D47 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		5AC10E732C0413E600E69D47 /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +79,12 @@
 		5AC10E352C03AAB300E69D47 /* TikTok */ = {
 			isa = PBXGroup;
 			children = (
-				5AC10E362C03AAB300E69D47 /* TikTokApp.swift */,
-				5AC10E382C03AAB300E69D47 /* ContentView.swift */,
+				5AC10E472C03AAF100E69D47 /* App */,
+				5AC10E442C03AAC200E69D47 /* Core */,
+				5AC10E452C03AACA00E69D47 /* Extensions */,
+				5AC10E462C03AAE300E69D47 /* Model */,
+				5AC10E482C03AB0300E69D47 /* Services */,
+				5AC10E492C03AB0F00E69D47 /* Utils */,
 				5AC10E3A2C03AAB400E69D47 /* Assets.xcassets */,
 				5AC10E3C2C03AAB400E69D47 /* Preview Content */,
 			);
@@ -65,6 +97,176 @@
 				5AC10E3D2C03AAB400E69D47 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5AC10E442C03AAC200E69D47 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5AC10E4B2C03AB4400E69D47 /* Authentication */,
+				5AC10E4C2C03AB4B00E69D47 /* Comments */,
+				5AC10E4D2C03AB5800E69D47 /* Components */,
+				5AC10E4F2C03AB6000E69D47 /* Feed */,
+				5AC10E502C03AB6000E69D47 /* Notifications */,
+				5AC10E512C03AB6100E69D47 /* Profile */,
+				5AC10E522C03AB6100E69D47 /* Root */,
+				5AC10E532C03AB6200E69D47 /* Search */,
+				5AC10E542C03AB6200E69D47 /* TabBar */,
+				5AC10E752C04185200E69D47 /* UploadMedia */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5AC10E452C03AACA00E69D47 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5AC10E462C03AAE300E69D47 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5AC10E6C2C04101100E69D47 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5AC10E472C03AAF100E69D47 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5AC10E362C03AAB300E69D47 /* TikTokApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5AC10E482C03AB0300E69D47 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5AC10E492C03AB0F00E69D47 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5AC10E4B2C03AB4400E69D47 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		5AC10E4C2C03AB4B00E69D47 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		5AC10E4D2C03AB5800E69D47 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5AC10E732C0413E600E69D47 /* CustomVideoPlayer.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5AC10E4F2C03AB6000E69D47 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				5AC10E702C04105300E69D47 /* Service */,
+				5AC10E6F2C04105100E69D47 /* View */,
+				5AC10E6E2C04104E00E69D47 /* ViewModel */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		5AC10E502C03AB6000E69D47 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				5AC10E5F2C0406F200E69D47 /* NotificationsView.swift */,
+				5AC10E612C0406FB00E69D47 /* NotificationCell.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		5AC10E512C03AB6100E69D47 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				5AC10E632C04094700E69D47 /* CurrentUserProfileView.swift */,
+				5AC10E692C040D0400E69D47 /* Components */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		5AC10E522C03AB6100E69D47 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				5AC10E382C03AAB300E69D47 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		5AC10E532C03AB6200E69D47 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				5AC10E5B2C04052700E69D47 /* ExploreView.swift */,
+				5AC10E5D2C04053400E69D47 /* UserCell.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		5AC10E542C03AB6200E69D47 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				5AC10E552C03AC8500E69D47 /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		5AC10E692C040D0400E69D47 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5AC10E652C040B6700E69D47 /* ProfileHeaderView.swift */,
+				5AC10E672C040B7800E69D47 /* PostGridView.swift */,
+				5AC10E6A2C040D1900E69D47 /* UserStatView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5AC10E6E2C04104E00E69D47 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5AC10E712C04106C00E69D47 /* FeedViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5AC10E6F2C04105100E69D47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5AC10E572C04002F00E69D47 /* FeedView.swift */,
+				5AC10E592C04018B00E69D47 /* FeedCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5AC10E702C04105300E69D47 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5AC10E752C04185200E69D47 /* UploadMedia */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UploadMedia;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +339,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AC10E582C04002F00E69D47 /* FeedView.swift in Sources */,
+				5AC10E742C0413E600E69D47 /* CustomVideoPlayer.swift in Sources */,
+				5AC10E622C0406FB00E69D47 /* NotificationCell.swift in Sources */,
+				5AC10E662C040B6700E69D47 /* ProfileHeaderView.swift in Sources */,
+				5AC10E6B2C040D1900E69D47 /* UserStatView.swift in Sources */,
+				5AC10E5A2C04018B00E69D47 /* FeedCell.swift in Sources */,
+				5AC10E722C04106C00E69D47 /* FeedViewModel.swift in Sources */,
+				5AC10E6D2C04101100E69D47 /* Post.swift in Sources */,
 				5AC10E392C03AAB300E69D47 /* ContentView.swift in Sources */,
 				5AC10E372C03AAB300E69D47 /* TikTokApp.swift in Sources */,
+				5AC10E5C2C04052700E69D47 /* ExploreView.swift in Sources */,
+				5AC10E562C03AC8500E69D47 /* MainTabView.swift in Sources */,
+				5AC10E682C040B7800E69D47 /* PostGridView.swift in Sources */,
+				5AC10E642C04094700E69D47 /* CurrentUserProfileView.swift in Sources */,
+				5AC10E5E2C04053400E69D47 /* UserCell.swift in Sources */,
+				5AC10E602C0406F200E69D47 /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
